@@ -1,8 +1,7 @@
-
 FROM java:8
 WORKDIR /app
 #EXPOSE 容器暴露端口
-EXPOSE 8079
+EXPOSE 8081
 # 作者
 MAINTAINER eangulee <973513569@qq.com>
 COPY eureka.gateway-1.0-SNAPSHOT.jar app.jar
